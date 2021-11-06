@@ -1,0 +1,207 @@
+@media all and (min-width: 950px)
+{
+    /*---------------------- header--------------- */
+    #menu-btn {display:none;}
+    #triangle {display:none;}
+    header
+    {
+        background: url("images/desktop/image-header.jpg") no-repeat;
+        background-size: 100% 100%;
+        height: 100vh;
+        width: auto; 
+    } 
+    #menu-pannel
+    {
+        align-items: center;
+        width:95%;        
+    }
+    nav
+    {        
+        position: relative;
+        top:0;        
+        width: auto;
+        height: auto;
+
+        background-color: rgba(255, 255, 255, 0);     
+        display: flex;
+        flex-direction: row;
+        font-size: 1em;
+        color: rgba(255, 255, 255, 0.959);
+    }
+    #contact-btn
+    {
+        padding: 0.9em 1.5em;
+        background-color: white;
+    }
+    #contact-btn:hover
+    {
+        color:white;
+        background-color: rgba(255, 255, 255, 0.521);
+    }
+    h1
+    {
+        margin-top: 12%;
+    }
+    #arrow
+    {
+        margin-top: 3%;
+    }
+
+    /* ---------------card----------------- */
+    .card-pannel
+    {
+        display: flex;
+        flex-direction: row;    
+        justify-content:space-between;
+        align-items: center;
+        width:100%;
+    }
+    .card-image
+    {
+        width:50%;
+        height:40vw;   
+    }
+    .card-image img
+    {
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+    .description-container
+    {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width:50%;
+    }
+    .description-pannel
+    {
+        height: auto;
+        width:61%;
+        justify-content: center;
+        align-items: flex-start;
+        gap:3em;
+    }
+
+    .description-pannel h2,.description-pannel p, .learn-more
+    {
+        text-align: left;
+        width: auto;
+    }
+    .learn-more
+    {
+        width:auto;
+    }
+    .learn-more:hover
+    {
+        box-shadow: 0px 5px 2px 0px rgb(255, 238, 0);
+    }
+    .red
+    {
+        box-shadow: 0px 5px 2px 0px rgb(255, 130, 126);
+    }
+    .red:hover
+    {
+        box-shadow: 0px 5px 2px 0px rgb(255, 8, 0);
+    }
+    .description-pannel h2
+    {
+        font-size: 2.6em;        
+    }
+
+    /* ----------Transform & Photo card-------------- */
+    .transfrom-pannel
+    {
+        flex-direction: row-reverse;
+    }
+
+    .graphic-photo-pannel
+    {
+        display: flex;
+        flex-direction: row; 
+        justify-content:center;
+        align-items: center;
+    } 
+    .graphic-design
+    {
+        background: url("images/desktop/image-graphic-design.jpg") no-repeat;
+    }
+    .photography
+    {
+        background: url("images/desktop/image-photography.jpg") no-repeat;
+    } 
+    .photography,.graphic-design
+    {
+        background-size: 100% 40vw;
+        height: 40vw;
+        width: 100%; 
+        display:block;
+    }
+ 
+    .image-and-text-pannel
+    {   
+        display:flex;
+    } 
+    .image-and-text-pannel p,   .image-and-text-pannel h2
+    {   
+        width:50%;
+    }
+    .image-and-text-pannel h2
+    {
+        font-family: "Fraunces";
+        font-weight: bold;
+        font-size: 2em;
+    }
+    h3
+    {
+        padding:3em;
+        margin-top:5em;
+    }
+    /* ----------Testimonial-------------- */
+    #testimonial
+    {
+        flex-direction: row;
+        gap:3em;
+        margin-bottom:5em;
+    }
+    .testimonial-pannel
+    {
+        width:20%;
+    }
+    /*-------------- gallery----------- */
+    #gallery
+    {
+        grid-template-columns: 1fr 1fr 1fr 1fr;        
+        grid-template-rows: 1fr;        
+        width: 100%;
+    }
+    #gallery img
+    {        
+        width:100%;
+        height:100%;
+    }
+
+    /*-------------- foot-------- */
+    footer
+    {
+        height: 20em;
+        gap:3em;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+    #foot-logo
+    {   
+        width:30%;        
+    }
+    #networks-menu img:hover
+    {   
+        cursor: pointer;
+        filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(1%) hue-rotate(307deg) brightness(103%) contrast(101%);
+    }
+    #foot-menu div:hover
+    {
+        cursor: pointer;
+        color:white;
+    }
+}

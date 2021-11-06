@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fraunces&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+p
+{
+    font-family: "Fraunces";
+    width: 90%;
+    opacity: 0.9;
+}
+/*---------------------Header part---------------------------- */
+header
+{
+    background: url("images/mobile/image-header.jpg") no-repeat;
+    background-size: 100vw 140vw;
+    height: 140vw;
+    width: 100%; 
+} 
+#menu-pannel
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;   
+}
+h1
+{
+    font-family: "Fraunces";
+    font-size: 2.5em;    
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color:white;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+nav
+{
+    display: none;
+    position: absolute;
+    top:5em;
+    background-color: white;
+    width: 91.5%;
+    height: 40vh;
+    
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:2em;
+    font-family: "Fraunces";
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+}
+#mobile-menu
+{
+    padding: 1em 0em 1em 0em;
+}
+#triangle
+{
+    position:absolute;
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-bottom : 30px solid white;
+    border-left : 30px solid transparent;
+    top:-30px;
+    right:0px;
+}
+#contact-btn
+{
+    background-color: hsl(51, 100%, 49%);
+    color: black;
+    padding: 1em 2em;
+    border-radius: 1.5em;
+    text-transform: uppercase;
+}
+nav div:hover
+{
+    cursor: pointer;
+    filter:grayscale(50%);
+}
+
+/*----------------------cards generalities------------------------ */
+h2
+{
+    font-family: "Fraunces";
+    font-size: 1.7em;
+    font-weight: bold;
+    width:70%;
+    margin-top: 1em;
+}
+.card-image img
+{
+    width: 100%;
+    height:80vw;
+}
+.description-pannel
+{
+    height: 100vw;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.learn-more
+{
+    font-family: "Fraunces";
+    font-weight: bold;
+    text-transform: uppercase;
+    border-style:none;
+    box-shadow: 0px 5px 2px 0px rgb(255, 246, 126);
+    margin-bottom: 3em;
+}
+.graphic-design
+{
+    background: url("images/mobile/image-graphic-design.jpg") no-repeat;
+}
+.photography
+{
+    background: url("images/mobile/image-photography.jpg") no-repeat;
+}
+.photography,.graphic-design
+{
+    background-size: 100vw 160vw;
+    height: 160vw;
+    width: 100%; 
+}
+.image-and-text-pannel
+{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+.image-and-text-pannel p
+{
+    margin-bottom: 4em;
+}
+.image-and-text-pannel h2
+{
+    opacity: 0.8;
+}
+/*---------------testimonials-------------- */
+#testimonial
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap:3em;
+    padding-top: 2.5em;
+    padding-bottom: 4em;
+
+}
+h3
+{
+    font-family: "Fraunces";
+    color:gray;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1em;
+    margin-top: 2em;
+}
+.testimonial-pannel
+{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-family: "Fraunces";
+}
+.testimonial-pp
+{
+    border-radius: 50%;
+    width:4em;
+    margin-bottom: 2.5em;
+}
+.testimonial-text
+{
+    font-weight: bold;
+    opacity: 0.7;
+    margin-bottom: 2.5em;
+
+}
+.testimonial-author
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+
+}
+.testimonial-job
+{
+    font-family: "Barlow";
+    font-size: bold;
+    color:gray;
+    
+}
+/*----------gallery---------------- */
+#gallery
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
+    /* gap:0; */
+}
+#gallery img
+{
+    height:50vw;
+    display: block;
+}
+
+/*-------------footer---------------- */
+footer
+{
+    background-color: hsl(168, 39%, 56%);
+    height: 100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:5em;
+}
+#foot-logo
+{   
+    width:45%;
+    filter: brightness(0) saturate(100%) invert(22%) sepia(12%) saturate(2145%) hue-rotate(116deg) brightness(99%) contrast(90%);
+}
+#foot-menu
+{
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    font-family: "Fraunces";
+    color: hsl(120, 10%, 16%);
+    
+}
+#networks-menu img
+{
+    filter: brightness(0) saturate(100%) invert(22%) sepia(12%) saturate(2145%) hue-rotate(116deg) brightness(99%) contrast(90%);
+}
+#networks-menu
+{
+    display:flex;
+    justify-content:space-around;
+    width:50%;
+}
+.attribution
+{
+    align-self: flex-end;
+}

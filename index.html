@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style-mobile.css">
+    <link rel="stylesheet" href="style-desktop.css">
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+
+  <body>
+    <main> 
+      <header> 
+        <div id="menu-pannel">
+          <img src="images/logo.svg" alt="logo">
+          <img id="menu-btn" src="images/icon-hamburger.svg" alt="menu-button">
+          <nav id="mobile-menu">
+            <span id="triangle"></span>
+            <div>About</div>
+            <div>Services</div>
+            <div>Projects</div>
+            <div id="contact-btn">Contact</div>
+          </nav>
+        </div>
+
+        <h1>We are creatives</h1> 
+        <img id="arrow" src="images/icon-arrow-down.svg" alt="arrow-image">
+          
+        </div>
+        
+      </header>
+
+      <section class="card-pannel transfrom-pannel">
+        <div class="card-image">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-transform.jpg">
+            <source media="(max-width:900px)" srcset="images/mobile/image-transform.jpg">
+            <img src="images/desktop/image-transform.jpg" alt="transfrom-bg">
+          </picture>
+        </div>
+        <div class="description-container">
+          <div class="description-pannel">
+            <h2>Transform your brand</h2>
+            <p>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <div class="learn-more">Learn more</div>
+          </div>
+      </div>
+      </section>
+
+      <section class="card-pannel">
+        <div class="card-image">
+          <picture>
+            <source media="(min-width:900px)" srcset="images/desktop/image-stand-out.jpg">
+            <source media="(max-width:900px)" srcset="images/mobile/image-stand-out.jpg">
+            <img src="images/desktop/image-stand-out.jpg" alt="image-stand-out">
+          </picture>
+        </div>
+        <div class="description-container">
+          <div class="description-pannel">
+            <h2>Stand out to the right audience</h2>
+            <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+            <div class="learn-more red">Learn more</div>
+          </div> 
+        </div>
+      </section>
+      
+      <div class="graphic-photo-pannel">
+        <section class="image-and-text-pannel graphic-design">
+          <h2>Graphic design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </section>
+  
+        <section class="image-and-text-pannel photography">
+          <h2>Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </section>
+      </div>
+
+
+      <h3>Client testimonials</h3>
+      <section id="testimonial">
+        <div class="testimonial-pannel">
+          <img class="testimonial-pp" src="images/image-emily.jpg" alt="emily-pp">
+          <p class="testimonial-text">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="testimonial-author">Emily R.</div>
+          <div class="testimonial-job">Marketing Director</div>
+        </div>
+        <div class="testimonial-pannel">
+          <img class="testimonial-pp" src="images/image-thomas.jpg" alt="thomas-pp">
+          <p class="testimonial-text">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <div class="testimonial-author">Thomas S.</div>
+          <div class="testimonial-job">Chief Operating Officer</div>
+        </div>
+        <div class="testimonial-pannel">
+          <img class="testimonial-pp" src="images/image-jennie.jpg" alt="jennie-pp">
+          <p class="testimonial-text">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="testimonial-author">Jennie F.</div>
+          <div class="testimonial-job">Business Owner</div>
+        </div>
+      </section>
+
+      <div id="gallery">
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-gallery-milkbottles.jpg">
+          <source media="(max-width:900px)" srcset="images/mobile/image-gallery-milkbottles.jpg">
+          <img src="images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+        </picture>
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-gallery-orange.jpg">
+          <source media="(max-width:900px)" srcset="images/mobile/image-gallery-orange.jpg">
+          <img src="images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
+        </picture>
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-gallery-cone.jpg">
+          <source media="(max-width:900px)" srcset="images/mobile/image-gallery-cone.jpg">
+          <img src="images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
+        </picture>
+        <picture>
+          <source media="(min-width:900px)" srcset="images/desktop/image-gallery-sugarcubes.jpg">
+          <source media="(max-width:900px)" srcset="images/mobile/image-gallery-sugar-cubes.jpg">
+          <img src="images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugar-cubes">
+        </picture>
+      </div>
+
+      <footer>
+        <img id="foot-logo" src="images/logo.svg" alt="logo">
+        <div id="foot-menu">
+          <div>About</div>
+          <div>Services</div>
+          <div>Projects</div>
+        </div>
+        <div id="networks-menu">
+          <img src="images/icon-facebook.svg" alt="facebook">
+          <img src="images/icon-instagram.svg" alt="instagram">
+          <img src="images/icon-twitter.svg" alt="twitter">
+          <img src="images/icon-pinterest.svg" alt="pinterest">
+        </div>
+      </footer>
+    </main>
+
+
+  </body>
+  <script src="script.js"></script>
+</html>
